@@ -1,0 +1,12 @@
+
+/* TEAM */     
+Programmer: Jim Johnson        
+Site: https://jimjohnson.dev
+Github: https://github.com/jimjohnsondev
+Location: Brooklyn, NY USA
+    
+/* SITE */     
+Last update: 2025/03/21                 
+Standards: HTML5, CSS3, SVG, Javascript
+Components: @jjohnson/icon-web-components                 
+Software: vite, vscode

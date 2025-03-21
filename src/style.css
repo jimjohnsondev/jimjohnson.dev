@@ -2,9 +2,29 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+} 
+
+:root {
+  --color-bg: #f2f2f2;
+  --color-text: #1a1a1a;
+  --color-link: #630563;
+  --color-primary: #800080;
+  --color-primary-dk: #330033;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #1a1a1a;
+    --color-text: #f2f2f2;
+    --color-link: #e1a6e1;
+    --color-primary: #cc33cc;
+    --color-primary-dk: #7a1f7a;
+  }
 }
 
 body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
   font-family: sans-serif;
   font-size: 1rem;
   line-height: 1.5;
@@ -25,7 +45,7 @@ h2 {
 
 h3 {
   font-size: 1.125rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.125rem;
 }
 
 section {
@@ -41,15 +61,43 @@ li {
 }
 
 a {
-  color: #000;
+  color: var(--color-link);
   text-decoration: none;
 }
 
 a:hover {
-  color: #800080;
+  color: var(--color-primary);
   text-decoration: underline;
 }
 
 a:active {
-  color: #330033;
+  color: var(--color-primary-dk);
+}
+
+.container {
+  max-width: 640px;
+  margin: auto;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.icon {
+  display: inline-block;
+  fill: var(--color-text);
+  height: 1.5rem;
+  stroke: none;
+  width: 1.5rem;
+}
+
+.icon:hover {
+  fill: var(--color-primary);
+}
+
+.icon-link,
+.icon-link:hover,
+.icon-link:active {
+  color: transparent;
+  text-decoration: none;
 }

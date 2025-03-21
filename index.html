@@ -2,70 +2,79 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="The homepage of Engineering Lead Jim Johnson"
     />
     <title>Jim Johnson | UI Engineering Lead</title>
+    <link rel="author" type="text/plain" href="/humans.txt" />
     <link rel="stylesheet" href="./src/style.css" />
     <script src="/src/main.js" type="module" defer></script>
   </head>
   <body>
-    <header>
-      <h1>Jim Johnson</h1>
-    </header>
-    <main>
-      <section>
+    <div class="container">
+      <header class="header">
+        <h1>Jim Johnson</h1>
         <h2>UI Engineering Lead</h2>
-        <p>
-          James Johnson is a seasoned UI Engineering Lead with extensive
-          experience building modern web applications and leading development
-          teams to success. With expertise in React, TypeScript, and frontend
-          architecture, James has consistently delivered high-performing
-          solutions that drive business growth and customer satisfaction.
-        </p>
-      </section>
-      <section>
-        <h2>Skills</h2>
-        <ul>
-          <li>
-            <b>Frontend:</b> HTML5, CSS3, JavaScript (ES6), TypeScript, React,
-            Angular
-          </li>
-          <li><b>Styling:</b> Tailwind, CSS Moduels, Material UI</li>
-          <li><b>Testing & Quality:</b> Vitest, Jest, Cypress, Storybook</li>
-          <li><b>Build Tools:</b> Webpack, Vite, Node, NPM</li>
-          <li><b>DevOps:</b> CI/CD, Git, GitLab, GitHub</li>
-        </ul>
-        <p>
-          James combines technical proficiency with leadership ability to
-          deliver exceptional digital experiences that drive measurable business
-          results.
-        </p>
-      </section>
-      <section>
-        <h2>Projects</h2>
-        <h3>
-          <a href="https://github.com/jimjohnsondev/icon-web-components">
-            Icon Web Components
+      </header>
+      <main>
+        <section>
+          <p>
+            James Johnson is a seasoned UI Engineering Lead with extensive
+            experience building modern web applications and leading development
+            teams to success. With expertise in React, TypeScript, and frontend
+            architecture, James has consistently delivered high-performing
+            solutions that drive business growth and customer satisfaction.
+          </p>
+        </section>
+        <section>
+          <h2>Skills</h2>
+          <ul>
+            <li>
+              <b>Frontend:</b> HTML5, CSS3, JavaScript (ES6), TypeScript, React,
+              Angular
+            </li>
+            <li><b>Styling:</b> Tailwind, CSS Modules, Material UI</li>
+            <li><b>Testing & Quality:</b> Vitest, Jest, Cypress, Storybook</li>
+            <li><b>Build Tools:</b> Webpack, Vite, Node, NPM</li>
+            <li><b>DevOps:</b> CI/CD, Git, GitLab, GitHub</li>
+          </ul>
+          <p>
+            James combines technical proficiency with leadership ability to
+            deliver exceptional digital experiences that drive measurable
+            business results.
+          </p>
+        </section>
+        <section>
+          <h2>Projects</h2>
+          <h3>
+            <a href="https://github.com/jimjohnsondev/icon-web-components">
+              Icon Web Components
+            </a>
+          </h3>
+          <p>
+            An open source collection of SVG icon components for the browser
+          </p>
+        </section>
+        <section>
+          <h2>On the Web</h2>
+          <a href="https://github.com/jimjohnsondev" class="icon-link">
+            <icon-github class="icon" aria-label="Github"></icon-github>
           </a>
-        </h3>
-        <p>An open source collection of SVG icon components for the browser</p>
-      </section>
-      <section>
-        <h2>On the Web</h2>
-        <icon-github></icon-github>
-        <icon-linkedin></icon-linkedin>
-      </section>
-    </main>
-    <footer>
-      <p>
-        <small>
-          &copy; <date datetime="2025-01-01">2025</date> James Johnson
-        </small>
-      </p>
-    </footer>
+          <a href="https://www.linkedin.com/in/jamjoh/" class="icon-link">
+            <icon-linkedin class="icon" aria-label="Linkedin"></icon-linkedin>
+          </a>
+        </section>
+      </main>
+      <footer>
+        <p>
+          <small>
+            &copy; <date datetime="2025-01-01">2025</date> James Johnson | Made
+            in Brooklyn
+          </small>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
