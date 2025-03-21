@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 1.875rem;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+ul {
+  margin: 0 0 2rem 2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #800080;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #330033;
+}
